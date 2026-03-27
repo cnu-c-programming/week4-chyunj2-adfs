@@ -4,9 +4,9 @@ int main()
 {
     for(int i = 0;i < 100;i++){
         if(i % 2 == 0){
-            logger("Even");
+            logger("even");
     }else{
-            logger("Odd");
+            logger("odd");
         }
     }
     return 0;
