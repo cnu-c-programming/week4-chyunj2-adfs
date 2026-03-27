@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include "util.h"
 extern void task2();
-extern void logger(const char* message);
+extern void logger_global(const char* message);
 void task1()
 {
     for(int i = 0;i < 5;i++){
