@@ -6,7 +6,7 @@ void logger_global(const char* message) {
 }
 void task2()
 {
-    for(int i = 0;i < 100;i++){
+    for(int i = 0;i < 4;i++){
         logger_static_inline("task2");
         logger_global("task2");
     }
