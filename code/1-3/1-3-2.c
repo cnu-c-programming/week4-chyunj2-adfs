@@ -10,5 +10,4 @@ void task2()
         logger_static_inline("task2");
         logger_global("task2");
     }
-    return 0;
 }
